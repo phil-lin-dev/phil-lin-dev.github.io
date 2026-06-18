@@ -1,4 +1,4 @@
-# Philip Lin — Portfolio / Resume Site
+# Hongfei (Phil) Lin — Portfolio / Resume Site
 
 A fast, responsive personal portfolio website built with plain HTML, CSS, and
 JavaScript — no build step, no dependencies. Modern dark theme.
