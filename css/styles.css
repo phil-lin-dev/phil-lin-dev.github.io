@@ -427,25 +427,29 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(1.2rem, 5vw, 2rem
 .contact__title { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; margin-bottom: 1.2rem; }
 .contact__text { color: var(--text-dim); margin-bottom: 2.2rem; }
 .contact__links {
-  margin-top: 1.8rem;
-  display: inline-flex;
+  margin-top: 2rem;
+  display: flex;
   flex-direction: column;
-  gap: .6rem;
-  text-align: left;
+  gap: .75rem;
+  align-items: center;
 }
 .contact__links p {
-  color: var(--text-dim);
-  font-size: .92rem;
   display: flex;
-  gap: .8rem;
-  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .35rem .7rem;
+  font-size: .95rem;
 }
-.contact__links span { min-width: 110px; color: var(--text-mute); }
+.contact__links span {
+  color: var(--text-mute);
+  font-weight: 500;
+}
 .contact__links a {
   font-family: var(--mono);
+  font-size: .9rem;
   color: var(--accent);
   user-select: all;
-  word-break: break-all;
 }
 .contact__links a:hover { text-decoration: underline; }
 
