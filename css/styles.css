@@ -426,6 +426,17 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(1.2rem, 5vw, 2rem
 .contact__pre { font-family: var(--mono); color: var(--accent); margin-bottom: 1rem; }
 .contact__title { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; margin-bottom: 1.2rem; }
 .contact__text { color: var(--text-dim); margin-bottom: 2.2rem; }
+.contact__email {
+  margin-top: 1.4rem;
+  color: var(--text-mute);
+  font-size: .92rem;
+}
+.contact__email a {
+  font-family: var(--mono);
+  color: var(--accent);
+  user-select: all;
+}
+.contact__email a:hover { text-decoration: underline; }
 
 /* ---------- Footer ---------- */
 .footer {
