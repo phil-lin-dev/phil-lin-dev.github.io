@@ -32,7 +32,7 @@
       <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a href="https://www.linkedin.com/in/hongfei-lin/" target="_blank" rel="noopener" class="btn btn--ghost nav__resume">LinkedIn ↗</a>
+    <a href="assets/resume.pdf" class="btn btn--ghost nav__resume" download>Resume ↓</a>
     <button class="nav__menu" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -52,6 +52,7 @@
       </p>
       <div class="hero__cta">
         <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="assets/resume.pdf" class="btn btn--ghost" download>Download Résumé ↓</a>
         <a href="#contact" class="btn btn--ghost">Get in touch</a>
       </div>
       <div class="hero__socials">
@@ -90,7 +91,10 @@
           </ul>
         </div>
         <div class="about__card">
-          <div class="about__avatar">HL</div>
+          <div class="about__avatar">
+            <img src="assets/profile.jpg" alt="Hongfei (Phil) Lin" class="about__photo" onerror="this.remove()" />
+            <span class="about__monogram">HL</span>
+          </div>
           <ul class="about__facts">
             <li><span>📍</span> Seattle, WA</li>
             <li><span>💼</span> SDE II @ AWS Infrastructure Services</li>
