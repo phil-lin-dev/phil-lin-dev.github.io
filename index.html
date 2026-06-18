@@ -28,8 +28,8 @@
     <nav class="nav__links" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
     <a href="assets/resume.pdf" class="btn btn--ghost nav__resume" download>Resume ↓</a>
@@ -51,7 +51,7 @@
         modern GenAI tooling to work in my day-to-day engineering.
       </p>
       <div class="hero__cta">
-        <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="#experience" class="btn btn--primary">View my experience</a>
         <a href="assets/resume.pdf" class="btn btn--ghost" download>Download Résumé ↓</a>
         <a href="#contact" class="btn btn--ghost">Get in touch</a>
       </div>
@@ -158,70 +158,9 @@
       </div>
     </section>
 
-    <!-- Projects -->
-    <section class="section reveal" id="projects">
-      <h2 class="section__title"><span class="section__num">03.</span> Projects</h2>
-      <div class="projects">
-
-        <article class="card">
-          <div class="card__top">
-            <span class="card__folder">🌐</span>
-            <span class="card__tag">2021</span>
-          </div>
-          <h3 class="card__title">Simple API Web Server</h3>
-          <p class="card__desc">
-            A web service in Go that summarizes a page's metadata via HTML tokenizing and JSON
-            encoding. Built reusable, storage-agnostic packages for user accounts and session
-            state (Redis + MySQL), and RESTful endpoints for sign-up/in/out and profiles.
-            Dockerized and deployed to AWS EC2.
-          </p>
-          <ul class="card__tech">
-            <li>Go</li><li>Redis</li><li>MySQL</li><li>Docker</li><li>AWS EC2</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card__top">
-            <span class="card__folder">🧩</span>
-            <span class="card__tag">2021</span>
-          </div>
-          <h3 class="card__title">Puzzle Game Solver</h3>
-          <p class="card__desc">
-            Modeled classic puzzles ("Farmer, Fox, Chicken &amp; Grain", Eight Puzzle) as
-            state-space search problems in Python. Implemented BFS and DFS with path trace-back,
-            plus A* with Hamming and Manhattan heuristics to minimize expanded states.
-          </p>
-          <ul class="card__tech">
-            <li>Python</li><li>A* Search</li><li>Algorithms</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card__top">
-            <span class="card__folder">⚡</span>
-            <span class="card__tag">AWS · internal</span>
-          </div>
-          <h3 class="card__title">Power-Retirement Forecasting</h3>
-          <p class="card__desc">
-            Independently designed and built a full-stack application that forecasts the global
-            power-retirement plan for AWS data centers — supporting infrastructure build planning
-            and S&amp;OP processes where legacy systems fell short.
-          </p>
-          <ul class="card__tech">
-            <li>Full-Stack</li><li>Java</li><li>AWS</li>
-          </ul>
-        </article>
-
-      </div>
-      <p class="highlights__note">
-        Some work is on internal AWS systems and isn't publicly linkable. Open-source and
-        personal code lives on my <a href="https://github.com/phil-lin-dev" target="_blank" rel="noopener">GitHub</a>.
-      </p>
-    </section>
-
     <!-- Experience -->
     <section class="section reveal" id="experience">
-      <h2 class="section__title"><span class="section__num">04.</span> Experience</h2>
+      <h2 class="section__title"><span class="section__num">03.</span> Experience</h2>
       <div class="timeline">
         <div class="timeline__item">
           <div class="timeline__dot"></div>
@@ -295,6 +234,45 @@
             </ul>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section reveal" id="projects">
+      <h2 class="section__title"><span class="section__num">04.</span> Projects</h2>
+      <p class="section__lead">A few projects from my studies at the UW Information School.</p>
+      <div class="projects">
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__folder">🌐</span>
+            <span class="card__tag">2021</span>
+          </div>
+          <h3 class="card__title">Simple API Web Server</h3>
+          <p class="card__desc">
+            A Go web service that summarizes a page's metadata, with Redis/MySQL-backed user
+            accounts and sessions, RESTful endpoints, and Docker deployment to AWS EC2.
+          </p>
+          <ul class="card__tech">
+            <li>Go</li><li>Redis</li><li>MySQL</li><li>Docker</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__folder">🧩</span>
+            <span class="card__tag">2021</span>
+          </div>
+          <h3 class="card__title">Puzzle Game Solver</h3>
+          <p class="card__desc">
+            Classic puzzles modeled as state-space search in Python — BFS, DFS, and A* with
+            Hamming and Manhattan heuristics to minimize expanded states.
+          </p>
+          <ul class="card__tech">
+            <li>Python</li><li>A* Search</li><li>Algorithms</li>
+          </ul>
+        </article>
+
       </div>
     </section>
 
