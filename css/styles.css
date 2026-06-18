@@ -330,6 +330,23 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 clamp(1.2rem, 5vw, 2rem
 .card__links { display: flex; gap: 1rem; font-family: var(--mono); font-size: .8rem; }
 .card__links a { color: var(--text-dim); transition: color .2s; }
 .card__links a:hover { color: var(--accent); }
+.card__tag {
+  font-family: var(--mono);
+  font-size: .72rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid var(--border);
+  padding: .25rem .6rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.highlights__note {
+  margin-top: 1.6rem;
+  color: var(--text-mute);
+  font-size: .88rem;
+}
+.highlights__note a { color: var(--accent); }
+.highlights__note a:hover { text-decoration: underline; }
 .card__title { font-size: 1.25rem; margin-bottom: .7rem; }
 .card:hover .card__title { color: var(--accent); }
 .card__desc { color: var(--text-dim); font-size: .92rem; flex: 1; }
