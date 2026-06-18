@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Philip Lin — Software Developer</title>
+  <meta name="description" content="Philip Lin — Software & Web Developer. Portfolio, projects, and resume." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Philip Lin — Software Developer" />
+  <meta property="og:description" content="Portfolio, projects, and resume." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo">PL<span>.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="assets/resume.pdf" class="btn btn--ghost nav__resume" download>Resume ↓</a>
+    <button class="nav__menu" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero reveal">
+      <p class="hero__eyebrow">Hi, my name is</p>
+      <h1 class="hero__name">Philip Lin.</h1>
+      <h2 class="hero__tagline">I build things for the web.</h2>
+      <p class="hero__intro">
+        I'm a software developer who enjoys turning ideas into clean, reliable, and
+        accessible digital experiences. Currently focused on building thoughtful
+        front-end and full-stack applications.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:philiplin1219@gmail.com" aria-label="Email">Email</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section reveal" id="about">
+      <h2 class="section__title"><span class="section__num">01.</span> About Me</h2>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            Hello! I'm Philip, a developer who loves the craft of building software that
+            people actually enjoy using. My interest in code started with curiosity about
+            how the websites I used every day were made — and it grew into a passion for
+            building them myself.
+          </p>
+          <p>
+            I focus on writing maintainable code, sweating the details of user experience,
+            and continuously learning new tools and patterns. I care about performance,
+            accessibility, and clean architecture.
+          </p>
+          <p>Here are a few technologies I've been working with recently:</p>
+          <ul class="about__list">
+            <li>JavaScript (ES6+)</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>HTML &amp; CSS</li>
+            <li>Git &amp; CI/CD</li>
+          </ul>
+        </div>
+        <div class="about__card">
+          <div class="about__avatar">PL</div>
+          <ul class="about__facts">
+            <li><span>📍</span> Based in — Your City</li>
+            <li><span>🎓</span> Your Degree / School</li>
+            <li><span>💼</span> Open to opportunities</li>
+            <li><span>⚡</span> Fast learner, detail-oriented</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section reveal" id="skills">
+      <h2 class="section__title"><span class="section__num">02.</span> Skills &amp; Tools</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Languages</h3>
+          <div class="chips">
+            <span class="chip">JavaScript</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h3>Frameworks &amp; Libraries</h3>
+          <div class="chips">
+            <span class="chip">React</span>
+            <span class="chip">Next.js</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express</span>
+            <span class="chip">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="chips">
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">Figma</span>
+            <span class="chip">Vite</span>
+            <span class="chip">Docker</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section reveal" id="projects">
+      <h2 class="section__title"><span class="section__num">03.</span> Featured Projects</h2>
+      <div class="projects">
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__folder">📁</span>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener" aria-label="GitHub repo">Code</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Live demo">Live</a>
+            </div>
+          </div>
+          <h3 class="card__title">Project One</h3>
+          <p class="card__desc">
+            A short description of what this project does, the problem it solves, and what
+            makes it interesting. Replace with one of your real projects.
+          </p>
+          <ul class="card__tech">
+            <li>React</li><li>TypeScript</li><li>Vite</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__folder">📁</span>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+          <h3 class="card__title">Project Two</h3>
+          <p class="card__desc">
+            Describe a full-stack app, a tool, or an experiment. Mention the impact —
+            users, performance gains, or what you learned building it.
+          </p>
+          <ul class="card__tech">
+            <li>Node.js</li><li>Express</li><li>PostgreSQL</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__folder">📁</span>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+          <h3 class="card__title">Project Three</h3>
+          <p class="card__desc">
+            Another highlight — maybe an open-source contribution, a hackathon project,
+            or something you're proud of. Keep descriptions concise and outcome-focused.
+          </p>
+          <ul class="card__tech">
+            <li>Next.js</li><li>Tailwind</li><li>Supabase</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section reveal" id="experience">
+      <h2 class="section__title"><span class="section__num">04.</span> Experience</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__head">
+              <h3>Job Title</h3>
+              <span class="timeline__date">2024 — Present</span>
+            </div>
+            <p class="timeline__org">Company / Organization</p>
+            <ul>
+              <li>Describe a key responsibility or achievement with a measurable result.</li>
+              <li>Highlight technologies used and the impact of your work.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__head">
+              <h3>Previous Role / Internship</h3>
+              <span class="timeline__date">2023 — 2024</span>
+            </div>
+            <p class="timeline__org">Company / Organization</p>
+            <ul>
+              <li>What you built, shipped, or improved.</li>
+              <li>A second bullet showing growth or ownership.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__head">
+              <h3>Education</h3>
+              <span class="timeline__date">2019 — 2023</span>
+            </div>
+            <p class="timeline__org">Your University — Degree</p>
+            <ul>
+              <li>Relevant coursework, honors, or activities.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact reveal" id="contact">
+      <p class="contact__pre"><span class="section__num">05.</span> What's next?</p>
+      <h2 class="contact__title">Get In Touch</h2>
+      <p class="contact__text">
+        I'm currently open to new opportunities and collaborations. Whether you have a
+        question, a project in mind, or just want to say hi — my inbox is always open.
+      </p>
+      <a href="mailto:philiplin1219@gmail.com" class="btn btn--primary btn--lg">Say Hello</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Philip Lin</p>
+    <p class="footer__small">© <span id="year"></span> · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
